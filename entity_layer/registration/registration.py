@@ -12,7 +12,7 @@ class Register:
         self.database_name = "registration"
         self.collection_name_user = "user"
         self.collection_name_user_allow = "user_allowed"
-        self.admin_email_id = "yadav.tara.avnish@gmail.com"
+        self.admin_email_id = "nareshkadambini@gmail.com"
         self.collection_name_user_role = "user_role"
         self.n_attempt = 5
 

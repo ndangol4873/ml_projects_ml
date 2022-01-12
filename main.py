@@ -57,7 +57,7 @@ try:
 
     initial = Initializer()
     app = Flask(__name__)
-    app.secret_key = initial.get_session_secret_key()
+    app.secret_key = initial.get_session_secret_key
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     CORS(app)
 

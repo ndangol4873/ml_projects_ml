@@ -1,7 +1,7 @@
 root_folder: machine-learning-4873
 
 mongodb:
-  is_cloud: 0
+  is_cloud: 1
   user_name: ndangol4873
   password: Kamalmenuka4873$
   url: mongodb+srv://{0}:{1}@nd4873.elxb1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
@@ -36,8 +36,8 @@ user_detail:
   role_id: 1
 
 email_config:
-  sender_email_id: kadambinitamang@gmail.com
-  passkey: cscbrkzfuetuvsda
+  sender_email_id: nareshkadambini@gmail.com
+  passkey: xuojgqvmccbomewt
   receiver_email_id:
     - nareshkadambini@gmail.com
     - kadambinitamang@gmail.com

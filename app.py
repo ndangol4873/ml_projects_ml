@@ -1,7 +1,6 @@
 import time
 from datetime import datetime, timedelta
 from flask_sslify import SSLify
-
 from wsgiref import simple_server
 
 from flask import Flask, session, request, Response, stream_with_context, jsonify
@@ -57,7 +56,7 @@ try:
 
     initial = Initializer()
     app = Flask(__name__)
-    app.secret_key = initial.get_session_secret_key()
+    app.secret_key = initial.get_session_secret_key
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     CORS(app)
 
@@ -136,4 +135,4 @@ finally:
 
 if __name__ == "__main__":
     port=80
-    app.run(host="0.0.0.0",port=port)
+    app.run(host="0.0.0.0",port=port,debug=True)

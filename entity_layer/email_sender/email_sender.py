@@ -41,7 +41,7 @@ class EmailSender:
             message["To"] = self.__receiver_email_id
             text = f"Hi recipient,\n\n This is notification email from Machine Learning Application.\n\n" \
                    f"Description: \n\n{mail_text} \n\n Thanks & Regards," \
-                   f"\nAvnish Yadav"
+                   f"\nNaresh Dangol"
             message.set_content(text)
             # Create secure connection with server and send email
             with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:

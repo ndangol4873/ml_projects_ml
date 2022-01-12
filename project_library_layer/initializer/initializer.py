@@ -107,6 +107,7 @@ class Initializer():
     def get_google_bucket_name(self):
         return root_folder
 
+
     def get_session_secret_key(selfs):
 
         data = mongodb.get_record("session", "secretKey")
